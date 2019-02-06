@@ -1,5 +1,4 @@
-CREATE DATABASE Stock;
-USE Stock;
+\c stock;
 CREATE TABLE Produit (
   Ref VARCHAR(15),
   Desig VARCHAR(30),
